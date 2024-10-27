@@ -11,7 +11,6 @@ body {
     font-weight: 400;
     font-style: normal;
     color: #606c38;
-    /*text-shadow: 2px 2px 2px black;*/
 }
   
 
@@ -37,8 +36,6 @@ p {
     height: 750px;
     margin: 0 auto;
     padding: 10px;
-    /*border: 5px solid #dda15e;
-    border-radius: 10px;*/
 }
 
 #hero-title {
@@ -150,7 +147,7 @@ p {
 } 
 
 #guide-description h3 {
-    text-size: 24px;
+    font-size: 24px;
 }
 
 #guide-description h4 {
@@ -158,5 +155,5 @@ p {
 }
 
 #guide-description p {
-    text-size: 16px;
+    font-size: 16px;
 }
