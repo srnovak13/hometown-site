@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,25 +28,48 @@
         </div>
 
         <!--ACTIVITIES SECTION-->
-        <div class="activities">
-            <h3>Top 3 activities to do in Astoria</h3>
-            <a href="https://www.tripadvisor.com/Attraction_Review-g51790-d117451-Reviews-Cannon_Beach-Cannon_Beach_Oregon.html" target="_blank">
-                <img src="images/cannon-beach.jpg"></a>
-            <a href="https://www.tripadvisor.com/Attraction_Review-g52124-d147173-Reviews-Peter_Iredale_Ship_Wreck-Warrenton_Oregon.html" target="_blank">
-                <img src="images/peter-iredale.jpeg"></a>
-            <a href="https://www.tripadvisor.com/Attraction_Review-g60806-d107660-Reviews-Columbia_River_Maritime_Museum-Astoria_Oregon.html" target="_blank">
-                <img src="images/columbia-museum.webp"></a>
-        </div>
+        
+            
+            <main id="activities">
+                <h3 class="limelight-regular">Top 3 activities to do in Astoria</h3>
+                <div id="places">
+                    <section class="place">
+                        <a href="https://www.tripadvisor.com/Attraction_Review-g51790-d117451-Reviews-Cannon_Beach-Cannon_Beach_Oregon.html" target="_blank">
+                            <img src="images/cannon-beach.jpg">
+                            <h4>Cannon Beach</h4>
+                            <p>Marvel at the rugged beauty of Cannon Beach against the backdrop of Haystack Rock jutting out of the Pacific coast.</p>
+                        </a>    
+                    </section>   
+                    <section class="place">
+                        <a href="https://www.tripadvisor.com/Attraction_Review-g52124-d147173-Reviews-Peter_Iredale_Ship_Wreck-Warrenton_Oregon.html" target="_blank">
+                            <img src="images/peter-iredale.jpeg">
+                            <h4>Wreck of the Peter Iredale</h4>
+                            <p>A schooner which was shipwrecked in 1906.</p>
+                        </a>
+                    </section> 
+                    <section class="place">   
+                        <a href="https://www.tripadvisor.com/Attraction_Review-g60806-d107660-Reviews-Columbia_River_Maritime_Museum-Astoria_Oregon.html" target="_blank">
+                            <img src="images/columbia-museum.webp">
+                            <h4>Columbia River Maritime Museum</h4>
+                            <p>The Columbia River Maritime Museum tells the dramatic and inspiring stories of a mighty river, a vast ocean, and the generations of people who have made their living plying the waters of the region.</p>
+                        </a>    
+                </section>
+                </div>
+            </main>
 
         <!--GUIDE SECTION-->
-
-        <div class="guide-bio">
-            <h3>Your guide</h3>
-            <p>Short bio here</p>
-            <h4>Steve Novak</h4>
-            <img src="images/srnovak.jpeg" alt="my profile pic">
-        </div>
-
+        <footer id="guide">  
+            <div id="guide-card">
+                <div>
+                    <img src="images/srnovak.jpeg" alt="my profile pic">
+                </div>
+                <div id="guide-description">
+                    <h3>Your guide</h3>
+                    <p>I have spent a lot of time exploring the Oregon Coast and Astoria and the surrounding area always beckons me back.</p>
+                    <h4>Steve Novak</h4>
+                </div>
+            </div>
+        </footer>
     </body>
 
 </html>
