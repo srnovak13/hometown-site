@@ -1,8 +1,111 @@
 body {
     margin: 0;
     text-align: center;
+    
 }
 
+.limelight-regular {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #606c38;
+    /*text-shadow: 2px 2px 2px black;*/
+  }
+  
 img {
-    width: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 2px solid #fb8500;
+}
+
+img:hover {
+    border-color: #FFB703;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+    background-image: url("images/astoria.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    width: auto;
+    height: 750px;
+    margin: 0;
+    padding: 10px;
+    border: 5px solid #dda15e;
+    border-radius: 10px;
+}
+
+#hero-title {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    padding: 5px 10px;
+    background-color: #fefae0;
+    border-radius: 15px;
+    /*border: 2px solid #023047;*/
+    
+}
+
+#hero-title:hover, #hero-title:focus, #hero-title:active {
+    box-shadow: 0 0 10px #FFB703;
+}
+
+#hero-subtitle {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    padding: 5px 10px;
+    background-color: #606c38;
+    border-radius: 15px;
+    /*border: 2px solid #023047;*/
+    color: #fefae0;
+}
+
+/* ACTIVIES SECTION */
+
+.activities {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fefae0;
+    padding: 20px;
+    margin: 5px 0;
+    border: 5px solid #dda15e;
+    border-radius: 10px;
+}
+
+/* GUIDE SECTION */
+
+.guide-bio {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: column;
+    justify-content: space-around;
+    text-align: center;
+    background: #fefae0;
+    color: #FFB703;
+    border: 5px solid #dda15e;
+    border-radius: 15px;
 }
